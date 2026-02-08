@@ -8,7 +8,7 @@ def findMaxConsecutiveOnes(nums):
                 max_count = max(max_count, count)
                 count = 0
         max_count = max(max_count, count)
-        return max_count
+        return max_coxunt
     
 nums = [1,1,0,1,1,1]
 print(findMaxConsecutiveOnes(nums))
